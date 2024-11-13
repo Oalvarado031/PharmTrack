@@ -17,19 +17,16 @@ namespace ProyectoPharmTrack
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
+        private void btnPedido_Click(object sender, EventArgs e)
+        {
+            PedidoDeProductoFarmTrack.Form1 frmPrincipal = new PedidoDeProductoFarmTrack.Form1();
+            frmPrincipal.Show();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
+            Close();
         }
     }
 }
